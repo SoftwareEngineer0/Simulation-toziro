@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 5c2899e8d628fa342b0efb84448b9181
+timeCreated: 1522257717
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    100002: "\u906E\u65AD\u6A5F"
+    100004: "\u906E\u65AD\u6A5F001"
+    100006: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    100008: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    100010: //RootNode
+    100012: offset 0m pitch 10m
+    100014: offset 0m pitch 10m001
+    100016: offset 0m pitch 10m002
+    100018: offset 0m pitch 10m003
+    100020: offset 0m pitch 10m004
+    100022: offset 0m pitch 10m005
+    100024: offset 0m pitch 10m006
+    100026: offset 0m pitch 10m007
+    100028: offset 0m pitch 10m008
+    100030: offset 0m pitch 10m009
+    100032: offset 0m pitch 10m010
+    100034: offset 0m pitch 10m011
+    100036: offset 0m pitch 10m012
+    100038: offset 0m pitch 10m013
+    100040: offset 0m pitch 10m014
+    100042: offset 0m pitch 10m015
+    100044: offset 0m pitch 10m016
+    100046: offset 0m pitch 10m017
+    100048: offset 0m pitch 10m018
+    100050: offset 0m pitch 10m019
+    100052: offset 0m pitch 10m020
+    100054: offset 0m pitch 10m021
+    100056: offset 0m pitch 10m022
+    100058: offset 0m pitch 10m023
+    100060: offset 0m pitch 10m024
+    100062: offset 0m pitch 10m025
+    100064: offset 0m pitch 10m026
+    100066: offset 0m pitch 10m027
+    100068: offset 0m pitch 10m028
+    100070: offset 0m pitch 10m029
+    100072: offset 0m pitch 10m030
+    100074: offset 0m pitch 10m031
+    100076: offset 0m pitch 10m032
+    100078: offset 0m pitch 10m033
+    100080: offset 0m pitch 10m034
+    100082: offset 0m pitch 10m035
+    100084: offset 0m pitch 10m036
+    100086: offset 0m pitch 10m037
+    100088: offset 0m pitch 10m038
+    100090: offset 0m pitch 10m039
+    100092: offset 0m pitch 10m040
+    100094: offset 0m pitch 10m041
+    100096: offset 0m pitch 10m042
+    100098: offset 0m pitch 10m043
+    100100: offset 0m pitch 10m044
+    100102: offset 0m pitch 10m045
+    100104: offset 0m pitch 10m046
+    100106: offset 0m pitch 10m047
+    100108: offset 0m pitch 10m048
+    100110: offset 0m pitch 10m049
+    100112: offset 0m pitch 10m050
+    100114: offset 0m pitch 10m051
+    100116: offset 0m pitch 10m052
+    100118: offset 0m pitch 10m053
+    100120: offset 0m pitch 10m054
+    100122: offset 0m pitch 10m055
+    100124: offset 0m pitch 10m056
+    100126: offset 0m pitch 10m057
+    400000: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    400002: "\u906E\u65AD\u6A5F"
+    400004: "\u906E\u65AD\u6A5F001"
+    400006: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    400008: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    400010: //RootNode
+    400012: offset 0m pitch 10m
+    400014: offset 0m pitch 10m001
+    400016: offset 0m pitch 10m002
+    400018: offset 0m pitch 10m003
+    400020: offset 0m pitch 10m004
+    400022: offset 0m pitch 10m005
+    400024: offset 0m pitch 10m006
+    400026: offset 0m pitch 10m007
+    400028: offset 0m pitch 10m008
+    400030: offset 0m pitch 10m009
+    400032: offset 0m pitch 10m010
+    400034: offset 0m pitch 10m011
+    400036: offset 0m pitch 10m012
+    400038: offset 0m pitch 10m013
+    400040: offset 0m pitch 10m014
+    400042: offset 0m pitch 10m015
+    400044: offset 0m pitch 10m016
+    400046: offset 0m pitch 10m017
+    400048: offset 0m pitch 10m018
+    400050: offset 0m pitch 10m019
+    400052: offset 0m pitch 10m020
+    400054: offset 0m pitch 10m021
+    400056: offset 0m pitch 10m022
+    400058: offset 0m pitch 10m023
+    400060: offset 0m pitch 10m024
+    400062: offset 0m pitch 10m025
+    400064: offset 0m pitch 10m026
+    400066: offset 0m pitch 10m027
+    400068: offset 0m pitch 10m028
+    400070: offset 0m pitch 10m029
+    400072: offset 0m pitch 10m030
+    400074: offset 0m pitch 10m031
+    400076: offset 0m pitch 10m032
+    400078: offset 0m pitch 10m033
+    400080: offset 0m pitch 10m034
+    400082: offset 0m pitch 10m035
+    400084: offset 0m pitch 10m036
+    400086: offset 0m pitch 10m037
+    400088: offset 0m pitch 10m038
+    400090: offset 0m pitch 10m039
+    400092: offset 0m pitch 10m040
+    400094: offset 0m pitch 10m041
+    400096: offset 0m pitch 10m042
+    400098: offset 0m pitch 10m043
+    400100: offset 0m pitch 10m044
+    400102: offset 0m pitch 10m045
+    400104: offset 0m pitch 10m046
+    400106: offset 0m pitch 10m047
+    400108: offset 0m pitch 10m048
+    400110: offset 0m pitch 10m049
+    400112: offset 0m pitch 10m050
+    400114: offset 0m pitch 10m051
+    400116: offset 0m pitch 10m052
+    400118: offset 0m pitch 10m053
+    400120: offset 0m pitch 10m054
+    400122: offset 0m pitch 10m055
+    400124: offset 0m pitch 10m056
+    400126: offset 0m pitch 10m057
+    2100000: No Name
+    2300000: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    2300002: "\u906E\u65AD\u6A5F"
+    2300004: "\u906E\u65AD\u6A5F001"
+    2300006: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    2300008: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    2300010: offset 0m pitch 10m
+    2300012: offset 0m pitch 10m001
+    2300014: offset 0m pitch 10m002
+    2300016: offset 0m pitch 10m003
+    2300018: offset 0m pitch 10m004
+    2300020: offset 0m pitch 10m005
+    2300022: offset 0m pitch 10m006
+    2300024: offset 0m pitch 10m007
+    2300026: offset 0m pitch 10m008
+    2300028: offset 0m pitch 10m009
+    2300030: offset 0m pitch 10m010
+    2300032: offset 0m pitch 10m011
+    2300034: offset 0m pitch 10m012
+    2300036: offset 0m pitch 10m013
+    2300038: offset 0m pitch 10m014
+    2300040: offset 0m pitch 10m015
+    2300042: offset 0m pitch 10m016
+    2300044: offset 0m pitch 10m017
+    2300046: offset 0m pitch 10m018
+    2300048: offset 0m pitch 10m019
+    2300050: offset 0m pitch 10m020
+    2300052: offset 0m pitch 10m021
+    2300054: offset 0m pitch 10m022
+    2300056: offset 0m pitch 10m023
+    2300058: offset 0m pitch 10m024
+    2300060: offset 0m pitch 10m025
+    2300062: offset 0m pitch 10m026
+    2300064: offset 0m pitch 10m027
+    2300066: offset 0m pitch 10m028
+    2300068: offset 0m pitch 10m029
+    2300070: offset 0m pitch 10m030
+    2300072: offset 0m pitch 10m031
+    2300074: offset 0m pitch 10m032
+    2300076: offset 0m pitch 10m033
+    2300078: offset 0m pitch 10m034
+    2300080: offset 0m pitch 10m035
+    2300082: offset 0m pitch 10m036
+    2300084: offset 0m pitch 10m037
+    2300086: offset 0m pitch 10m038
+    2300088: offset 0m pitch 10m039
+    2300090: offset 0m pitch 10m040
+    2300092: offset 0m pitch 10m041
+    2300094: offset 0m pitch 10m042
+    2300096: offset 0m pitch 10m043
+    2300098: offset 0m pitch 10m044
+    2300100: offset 0m pitch 10m045
+    2300102: offset 0m pitch 10m046
+    2300104: offset 0m pitch 10m047
+    2300106: offset 0m pitch 10m048
+    2300108: offset 0m pitch 10m049
+    2300110: offset 0m pitch 10m050
+    2300112: offset 0m pitch 10m051
+    2300114: offset 0m pitch 10m052
+    2300116: offset 0m pitch 10m053
+    2300118: offset 0m pitch 10m054
+    2300120: offset 0m pitch 10m055
+    2300122: offset 0m pitch 10m056
+    2300124: offset 0m pitch 10m057
+    3300000: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    3300002: "\u906E\u65AD\u6A5F"
+    3300004: "\u906E\u65AD\u6A5F001"
+    3300006: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    3300008: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    3300010: offset 0m pitch 10m
+    3300012: offset 0m pitch 10m001
+    3300014: offset 0m pitch 10m002
+    3300016: offset 0m pitch 10m003
+    3300018: offset 0m pitch 10m004
+    3300020: offset 0m pitch 10m005
+    3300022: offset 0m pitch 10m006
+    3300024: offset 0m pitch 10m007
+    3300026: offset 0m pitch 10m008
+    3300028: offset 0m pitch 10m009
+    3300030: offset 0m pitch 10m010
+    3300032: offset 0m pitch 10m011
+    3300034: offset 0m pitch 10m012
+    3300036: offset 0m pitch 10m013
+    3300038: offset 0m pitch 10m014
+    3300040: offset 0m pitch 10m015
+    3300042: offset 0m pitch 10m016
+    3300044: offset 0m pitch 10m017
+    3300046: offset 0m pitch 10m018
+    3300048: offset 0m pitch 10m019
+    3300050: offset 0m pitch 10m020
+    3300052: offset 0m pitch 10m021
+    3300054: offset 0m pitch 10m022
+    3300056: offset 0m pitch 10m023
+    3300058: offset 0m pitch 10m024
+    3300060: offset 0m pitch 10m025
+    3300062: offset 0m pitch 10m026
+    3300064: offset 0m pitch 10m027
+    3300066: offset 0m pitch 10m028
+    3300068: offset 0m pitch 10m029
+    3300070: offset 0m pitch 10m030
+    3300072: offset 0m pitch 10m031
+    3300074: offset 0m pitch 10m032
+    3300076: offset 0m pitch 10m033
+    3300078: offset 0m pitch 10m034
+    3300080: offset 0m pitch 10m035
+    3300082: offset 0m pitch 10m036
+    3300084: offset 0m pitch 10m037
+    3300086: offset 0m pitch 10m038
+    3300088: offset 0m pitch 10m039
+    3300090: offset 0m pitch 10m040
+    3300092: offset 0m pitch 10m041
+    3300094: offset 0m pitch 10m042
+    3300096: offset 0m pitch 10m043
+    3300098: offset 0m pitch 10m044
+    3300100: offset 0m pitch 10m045
+    3300102: offset 0m pitch 10m046
+    3300104: offset 0m pitch 10m047
+    3300106: offset 0m pitch 10m048
+    3300108: offset 0m pitch 10m049
+    3300110: offset 0m pitch 10m050
+    3300112: offset 0m pitch 10m051
+    3300114: offset 0m pitch 10m052
+    3300116: offset 0m pitch 10m053
+    3300118: offset 0m pitch 10m054
+    3300120: offset 0m pitch 10m055
+    3300122: offset 0m pitch 10m056
+    3300124: offset 0m pitch 10m057
+    4300000: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    4300002: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    4300004: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    4300006: "\u906E\u65AD\u6A5F"
+    4300008: "\u906E\u65AD\u6A5F001"
+    4300010: offset 0m pitch 10m
+    4300012: offset 0m pitch 10m001
+    4300014: offset 0m pitch 10m002
+    4300016: offset 0m pitch 10m003
+    4300018: offset 0m pitch 10m004
+    4300020: offset 0m pitch 10m005
+    4300022: offset 0m pitch 10m006
+    4300024: offset 0m pitch 10m007
+    4300026: offset 0m pitch 10m008
+    4300028: offset 0m pitch 10m009
+    4300030: offset 0m pitch 10m010
+    4300032: offset 0m pitch 10m011
+    4300034: offset 0m pitch 10m012
+    4300036: offset 0m pitch 10m013
+    4300038: offset 0m pitch 10m014
+    4300040: offset 0m pitch 10m015
+    4300042: offset 0m pitch 10m016
+    4300044: offset 0m pitch 10m017
+    4300046: offset 0m pitch 10m018
+    4300048: offset 0m pitch 10m019
+    4300050: offset 0m pitch 10m020
+    4300052: offset 0m pitch 10m021
+    4300054: offset 0m pitch 10m022
+    4300056: offset 0m pitch 10m023
+    4300058: offset 0m pitch 10m024
+    4300060: offset 0m pitch 10m025
+    4300062: offset 0m pitch 10m026
+    4300064: offset 0m pitch 10m027
+    4300066: offset 0m pitch 10m028
+    4300068: offset 0m pitch 10m029
+    4300070: offset 0m pitch 10m030
+    4300072: offset 0m pitch 10m031
+    4300074: offset 0m pitch 10m032
+    4300076: offset 0m pitch 10m033
+    4300078: offset 0m pitch 10m034
+    4300080: offset 0m pitch 10m035
+    4300082: offset 0m pitch 10m036
+    4300084: offset 0m pitch 10m037
+    4300086: offset 0m pitch 10m038
+    4300088: offset 0m pitch 10m039
+    4300090: offset 0m pitch 10m040
+    4300092: offset 0m pitch 10m041
+    4300094: offset 0m pitch 10m042
+    4300096: offset 0m pitch 10m043
+    4300098: offset 0m pitch 10m044
+    4300100: offset 0m pitch 10m045
+    4300102: offset 0m pitch 10m046
+    4300104: offset 0m pitch 10m047
+    4300106: offset 0m pitch 10m048
+    4300108: offset 0m pitch 10m049
+    4300110: offset 0m pitch 10m050
+    4300112: offset 0m pitch 10m051
+    4300114: offset 0m pitch 10m052
+    4300116: offset 0m pitch 10m053
+    4300118: offset 0m pitch 10m054
+    4300120: offset 0m pitch 10m055
+    4300122: offset 0m pitch 10m056
+    4300124: offset 0m pitch 10m057
+    6400000: "\u30E9\u30D0\u30FC\u30DD\u30FC\u30EB"
+    6400002: "\u906E\u65AD\u6A5F"
+    6400004: "\u906E\u65AD\u6A5F001"
+    6400006: "\u9664\u96EA\u8ECA\u57FA\u5730"
+    6400008: "\u9664\u96EA\u8ECA\u57FA\u57302"
+    6400010: offset 0m pitch 10m
+    6400012: offset 0m pitch 10m001
+    6400014: offset 0m pitch 10m002
+    6400016: offset 0m pitch 10m003
+    6400018: offset 0m pitch 10m004
+    6400020: offset 0m pitch 10m005
+    6400022: offset 0m pitch 10m006
+    6400024: offset 0m pitch 10m007
+    6400026: offset 0m pitch 10m008
+    6400028: offset 0m pitch 10m009
+    6400030: offset 0m pitch 10m010
+    6400032: offset 0m pitch 10m011
+    6400034: offset 0m pitch 10m012
+    6400036: offset 0m pitch 10m013
+    6400038: offset 0m pitch 10m014
+    6400040: offset 0m pitch 10m015
+    6400042: offset 0m pitch 10m016
+    6400044: offset 0m pitch 10m017
+    6400046: offset 0m pitch 10m018
+    6400048: offset 0m pitch 10m019
+    6400050: offset 0m pitch 10m020
+    6400052: offset 0m pitch 10m021
+    6400054: offset 0m pitch 10m022
+    6400056: offset 0m pitch 10m023
+    6400058: offset 0m pitch 10m024
+    6400060: offset 0m pitch 10m025
+    6400062: offset 0m pitch 10m026
+    6400064: offset 0m pitch 10m027
+    6400066: offset 0m pitch 10m028
+    6400068: offset 0m pitch 10m029
+    6400070: offset 0m pitch 10m030
+    6400072: offset 0m pitch 10m031
+    6400074: offset 0m pitch 10m032
+    6400076: offset 0m pitch 10m033
+    6400078: offset 0m pitch 10m034
+    6400080: offset 0m pitch 10m035
+    6400082: offset 0m pitch 10m036
+    6400084: offset 0m pitch 10m037
+    6400086: offset 0m pitch 10m038
+    6400088: offset 0m pitch 10m039
+    6400090: offset 0m pitch 10m040
+    6400092: offset 0m pitch 10m041
+    6400094: offset 0m pitch 10m042
+    6400096: offset 0m pitch 10m043
+    6400098: offset 0m pitch 10m044
+    6400100: offset 0m pitch 10m045
+    6400102: offset 0m pitch 10m046
+    6400104: offset 0m pitch 10m047
+    6400106: offset 0m pitch 10m048
+    6400108: offset 0m pitch 10m049
+    6400110: offset 0m pitch 10m050
+    6400112: offset 0m pitch 10m051
+    6400114: offset 0m pitch 10m052
+    6400116: offset 0m pitch 10m053
+    6400118: offset 0m pitch 10m054
+    6400120: offset 0m pitch 10m055
+    6400122: offset 0m pitch 10m056
+    6400124: offset 0m pitch 10m057
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: dc2c6985605437948916dacd047df445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PostCon Orange
+    second: {fileID: 2100000, guid: 99ed344549a8afb49825270db247a0e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PostCon White
+    second: {fileID: 2100000, guid: 67e8ce040b4c81a4eaa78d3553f325af, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
