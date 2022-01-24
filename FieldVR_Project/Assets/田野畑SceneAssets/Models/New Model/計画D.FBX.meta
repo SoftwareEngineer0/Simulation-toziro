@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: b11c6ecc8d06fe146921e576324bb0f0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "000-\u30AA\u30D6\u30B8\u30A7"
+    100002: "000-\u30AB\u30E9\u30FC\u8D64"
+    100004: "000-\u30C9\u30C3\u30C8\u30D1\u30BF\u30FC\u30F3-D"
+    100006: "000-\u30D4\u30AF\u30C8\u30B0\u30E9\u30E0"
+    100008: "000-\u64C1\u58C1-001"
+    100010: "000-\u77E2\u7FBD"
+    100012: "000-\u7DD1\u5730-001"
+    100014: "000-\u8107\u9053"
+    100016: "000-\u9053\u306E\u99C5-\u6577\u5730"
+    100018: "001-\u4EA4\u5DEE\u70B9-\u73FE\u6CC1"
+    100020: "001-\u53F3\u6298\u30AB\u30E9\u30FC"
+    100022: "001-\u73FE\u6CC1\u9053\u8DEF"
+    100024: "002-\u73FE\u6CC1-\u7E01\u77F3-001"
+    100026: "002-\u73FE\u6CC1-\u7E01\u77F3-002"
+    100028: "003-\u73FE\u6CC1\u6B69\u9053-001"
+    100030: "003-\u73FE\u6CC1\u6B69\u9053-002"
+    100032: "010-\u4FE1\u53F7-001"
+    100034: "010-\u4FE1\u53F7-002"
+    100036: "010-\u4FE1\u53F7-003"
+    100038: "010-\u4FE1\u53F7-004"
+    100040: Box001
+    100042: Line001
+    100044: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8001"
+    100046: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8002"
+    100048: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8003"
+    100050: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u767D"
+    100052: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u9EC4"
+    100054: "\u4E88\u544A\u706F"
+    100056: "\u770B\u677F"
+    100058: "\u770B\u677F2"
+    100060: //RootNode
+    100062: "\u9053\u8DEF\u6848\u5185\u6A19\u8B58"
+    100064: "\u96FB\u5149\u63B2\u793A\u677F"
+    400000: "000-\u30AA\u30D6\u30B8\u30A7"
+    400002: "000-\u30AB\u30E9\u30FC\u8D64"
+    400004: "000-\u30C9\u30C3\u30C8\u30D1\u30BF\u30FC\u30F3-D"
+    400006: "000-\u30D4\u30AF\u30C8\u30B0\u30E9\u30E0"
+    400008: "000-\u64C1\u58C1-001"
+    400010: "000-\u77E2\u7FBD"
+    400012: "000-\u7DD1\u5730-001"
+    400014: "000-\u8107\u9053"
+    400016: "000-\u9053\u306E\u99C5-\u6577\u5730"
+    400018: "001-\u4EA4\u5DEE\u70B9-\u73FE\u6CC1"
+    400020: "001-\u53F3\u6298\u30AB\u30E9\u30FC"
+    400022: "001-\u73FE\u6CC1\u9053\u8DEF"
+    400024: "002-\u73FE\u6CC1-\u7E01\u77F3-001"
+    400026: "002-\u73FE\u6CC1-\u7E01\u77F3-002"
+    400028: "003-\u73FE\u6CC1\u6B69\u9053-001"
+    400030: "003-\u73FE\u6CC1\u6B69\u9053-002"
+    400032: "010-\u4FE1\u53F7-001"
+    400034: "010-\u4FE1\u53F7-002"
+    400036: "010-\u4FE1\u53F7-003"
+    400038: "010-\u4FE1\u53F7-004"
+    400040: Box001
+    400042: Line001
+    400044: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8001"
+    400046: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8002"
+    400048: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8003"
+    400050: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u767D"
+    400052: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u9EC4"
+    400054: "\u4E88\u544A\u706F"
+    400056: "\u770B\u677F"
+    400058: "\u770B\u677F2"
+    400060: //RootNode
+    400062: "\u9053\u8DEF\u6848\u5185\u6A19\u8B58"
+    400064: "\u96FB\u5149\u63B2\u793A\u677F"
+    2100000: Asphalt
+    2100002: Enseki
+    2100004: pilla
+    2100006: 01 - Default
+    2100008: 'Material #36'
+    2100010: 'Material #38'
+    2100012: AS2
+    2100014: Grass
+    2100016: Concrete_A
+    2100018: 'Material #37'
+    2100020: Concrete_B
+    2100022: "\u4FE1\u53F7"
+    2100024: kanban
+    2100026: kanban2
+    2100028: m_30_3
+    2100030: black
+    2100032: R-Asphalt
+    2100034: W-marking
+    2100036: B-Asphalt
+    2100038: Y-marking
+    2100040: G-Asphalt
+    2100042: No Name
+    2300000: "000-\u30AA\u30D6\u30B8\u30A7"
+    2300002: "000-\u30AB\u30E9\u30FC\u8D64"
+    2300004: "000-\u30C9\u30C3\u30C8\u30D1\u30BF\u30FC\u30F3-D"
+    2300006: "000-\u30D4\u30AF\u30C8\u30B0\u30E9\u30E0"
+    2300008: "000-\u64C1\u58C1-001"
+    2300010: "000-\u77E2\u7FBD"
+    2300012: "000-\u7DD1\u5730-001"
+    2300014: "000-\u8107\u9053"
+    2300016: "000-\u9053\u306E\u99C5-\u6577\u5730"
+    2300018: "001-\u4EA4\u5DEE\u70B9-\u73FE\u6CC1"
+    2300020: "001-\u53F3\u6298\u30AB\u30E9\u30FC"
+    2300022: "001-\u73FE\u6CC1\u9053\u8DEF"
+    2300024: "002-\u73FE\u6CC1-\u7E01\u77F3-001"
+    2300026: "002-\u73FE\u6CC1-\u7E01\u77F3-002"
+    2300028: "003-\u73FE\u6CC1\u6B69\u9053-001"
+    2300030: "003-\u73FE\u6CC1\u6B69\u9053-002"
+    2300032: "010-\u4FE1\u53F7-001"
+    2300034: "010-\u4FE1\u53F7-002"
+    2300036: "010-\u4FE1\u53F7-003"
+    2300038: "010-\u4FE1\u53F7-004"
+    2300040: Box001
+    2300042: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8001"
+    2300044: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8002"
+    2300046: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8003"
+    2300048: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u767D"
+    2300050: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u9EC4"
+    2300052: "\u4E88\u544A\u706F"
+    2300054: "\u770B\u677F"
+    2300056: "\u770B\u677F2"
+    2300058: "\u9053\u8DEF\u6848\u5185\u6A19\u8B58"
+    2300060: "\u96FB\u5149\u63B2\u793A\u677F"
+    3300000: "000-\u30AA\u30D6\u30B8\u30A7"
+    3300002: "000-\u30AB\u30E9\u30FC\u8D64"
+    3300004: "000-\u30C9\u30C3\u30C8\u30D1\u30BF\u30FC\u30F3-D"
+    3300006: "000-\u30D4\u30AF\u30C8\u30B0\u30E9\u30E0"
+    3300008: "000-\u64C1\u58C1-001"
+    3300010: "000-\u77E2\u7FBD"
+    3300012: "000-\u7DD1\u5730-001"
+    3300014: "000-\u8107\u9053"
+    3300016: "000-\u9053\u306E\u99C5-\u6577\u5730"
+    3300018: "001-\u4EA4\u5DEE\u70B9-\u73FE\u6CC1"
+    3300020: "001-\u53F3\u6298\u30AB\u30E9\u30FC"
+    3300022: "001-\u73FE\u6CC1\u9053\u8DEF"
+    3300024: "002-\u73FE\u6CC1-\u7E01\u77F3-001"
+    3300026: "002-\u73FE\u6CC1-\u7E01\u77F3-002"
+    3300028: "003-\u73FE\u6CC1\u6B69\u9053-001"
+    3300030: "003-\u73FE\u6CC1\u6B69\u9053-002"
+    3300032: "010-\u4FE1\u53F7-001"
+    3300034: "010-\u4FE1\u53F7-002"
+    3300036: "010-\u4FE1\u53F7-003"
+    3300038: "010-\u4FE1\u53F7-004"
+    3300040: Box001
+    3300042: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8001"
+    3300044: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8002"
+    3300046: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8003"
+    3300048: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u767D"
+    3300050: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u9EC4"
+    3300052: "\u4E88\u544A\u706F"
+    3300054: "\u770B\u677F"
+    3300056: "\u770B\u677F2"
+    3300058: "\u9053\u8DEF\u6848\u5185\u6A19\u8B58"
+    3300060: "\u96FB\u5149\u63B2\u793A\u677F"
+    4300000: "003-\u73FE\u6CC1\u6B69\u9053-001"
+    4300002: "003-\u73FE\u6CC1\u6B69\u9053-002"
+    4300004: "002-\u73FE\u6CC1-\u7E01\u77F3-002"
+    4300006: "002-\u73FE\u6CC1-\u7E01\u77F3-001"
+    4300008: "000-\u30AA\u30D6\u30B8\u30A7"
+    4300010: "010-\u4FE1\u53F7-001"
+    4300012: "000-\u9053\u306E\u99C5-\u6577\u5730"
+    4300014: "000-\u7DD1\u5730-001"
+    4300016: "000-\u64C1\u58C1-001"
+    4300018: "000-\u8107\u9053"
+    4300020: "010-\u4FE1\u53F7-002"
+    4300022: "010-\u4FE1\u53F7-003"
+    4300024: "010-\u4FE1\u53F7-004"
+    4300026: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8001"
+    4300028: "\u9053\u8DEF\u6848\u5185\u6A19\u8B58"
+    4300030: "\u4E88\u544A\u706F"
+    4300032: "\u96FB\u5149\u63B2\u793A\u677F"
+    4300034: "\u770B\u677F"
+    4300036: "\u770B\u677F2"
+    4300038: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8002"
+    4300040: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8003"
+    4300042: "001-\u73FE\u6CC1\u9053\u8DEF"
+    4300044: "000-\u30C9\u30C3\u30C8\u30D1\u30BF\u30FC\u30F3-D"
+    4300046: "000-\u30AB\u30E9\u30FC\u8D64"
+    4300048: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u767D"
+    4300050: "000-\u77E2\u7FBD"
+    4300052: "\u30DE\u30FC\u30AD\u30F3\u30B0-\u9EC4"
+    4300054: "001-\u4EA4\u5DEE\u70B9-\u73FE\u6CC1"
+    4300056: "000-\u30D4\u30AF\u30C8\u30B0\u30E9\u30E0"
+    4300058: "001-\u53F3\u6298\u30AB\u30E9\u30FC"
+    4300060: Box001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 245c091ca174b8340b947d8bdeec116d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AS2
+    second: {fileID: 2100000, guid: 7699b486285e0f748b3b5dc5ccd36ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt
+    second: {fileID: 2100000, guid: 47b1bcfbd27e37045a36254a78dfa6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B-Asphalt
+    second: {fileID: 2100000, guid: 466311792c622ac49a0bbe4e6cd6ba69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_A
+    second: {fileID: 2100000, guid: 8fc72664d145b934aa4696a6a098a644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_B
+    second: {fileID: 2100000, guid: f5c5dbc872425ae46a1ba8c3d1a5b443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enseki
+    second: {fileID: 2100000, guid: 87597aec40e7c3e48a844efca21c19b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: G-Asphalt
+    second: {fileID: 2100000, guid: ddf8f55e196318743b79c2b9eb70c98a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 2c406df5cd7bfec47a72b96fce91a148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #36'
+    second: {fileID: 2100000, guid: f4ffd190b01c053459899f33b3d1d961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 7568aade25b94b741806beee991d4131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #38'
+    second: {fileID: 2100000, guid: 7123f684e437dee45a69ee81e8daf78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 4ccdd16af0c74f744ad07777a499d366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R-Asphalt
+    second: {fileID: 2100000, guid: e89d7528b68193244b834e34752de7e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W-marking
+    second: {fileID: 2100000, guid: c66597a2313bf854292c507295ca77d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Y-marking
+    second: {fileID: 2100000, guid: b6a0fc38cfdf6a64496f021c9f6b1b5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 73be000c7e15fe84cbe7ccd9fd183a4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kanban
+    second: {fileID: 2100000, guid: 94b114c4bc919d44686d00105d2b5559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kanban2
+    second: {fileID: 2100000, guid: 40e90a2e1b2d371498bc5d7f71bfd3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_30_3
+    second: {fileID: 2100000, guid: 0e20152a5bc26c244946660da157dfca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pilla
+    second: {fileID: 2100000, guid: 334f59d1af94df84198e403201d10483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u4FE1\u53F7"
+    second: {fileID: 2100000, guid: e9f724e320c5e574dab12d67387cd73c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
