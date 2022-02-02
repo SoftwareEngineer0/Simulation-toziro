@@ -382,7 +382,7 @@ namespace Kender.uGUI
 
         public void CreateControl()
         {
-            Debug.Log("CreateControl");
+            //Debug.Log("CreateControl");
             rectTransform = GetComponent<RectTransform>();
 
             var buttonGO = new GameObject("Button");
@@ -459,7 +459,7 @@ namespace Kender.uGUI
 
         private void InitControl()
         {
-            Debug.Log("InitControl");
+            //Debug.Log("InitControl");
             var cbi = transform.Find("Button/ComboButton/Image");
             var cbt = transform.Find("Button/ComboButton/Text");
             var cba = transform.Find("Button/Arrow");
@@ -471,7 +471,7 @@ namespace Kender.uGUI
             }
 
             comboButtonRectTransform.GetComponent<Button>().onClick.AddListener(() => {
-                Debug.Log("InitControl_Addlistner");
+                //Debug.Log("InitControl_Addlistner");
                 ToggleComboBox(false); });
             var dropdownHeight = comboButtonRectTransform.sizeDelta.y * Mathf.Min(ItemsToDisplay, Items.Length - (HideFirstItem ? 1 : 0));
 
@@ -608,7 +608,7 @@ namespace Kender.uGUI
                 var itemText = itemTransform.Find("Text").GetComponent<Text>();
                 itemText.text = item.Caption;
 
-                Debug.Log("Refresh@@@" + itemText.text + isCurrentModel);
+                //Debug.Log("Refresh@@@" + itemText.text + isCurrentModel);
                 // switch(itemText.text) {
                 //     case "現況パス（直進）":
                 //     {
@@ -687,7 +687,7 @@ namespace Kender.uGUI
                 comboButtonImage.color = SelectedIndex == i + (HideFirstItem ? 1 : 0) ? comboButtonButton.colors.highlightedColor : comboButtonButton.colors.normalColor;
                 i++;
             }
-            Debug.Log("RefreshSelected:" + SelectedIndex);
+            //Debug.Log("RefreshSelected:" + SelectedIndex);
         }
 
         private void UpdateComboBoxImages()
@@ -728,7 +728,7 @@ namespace Kender.uGUI
         
         private void ToggleComboBox(bool directClick)
         {
-            Debug.Log("ToggleComboBox!!" + directClick);
+            //Debug.Log("ToggleComboBox!!" + directClick);
             overlayGO.SetActive(!overlayGO.activeSelf);
             if (overlayGO.activeSelf)
             {

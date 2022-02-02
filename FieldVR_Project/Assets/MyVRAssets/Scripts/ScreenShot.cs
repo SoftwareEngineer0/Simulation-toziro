@@ -48,7 +48,7 @@ namespace MyVR_Assets
             // ファイルが存在していて且つアクセス可能になったらファイルの保存処理が終了している.
             while (!isFileComplete)
             {
-                //Debug.Log("Saving !! ");
+                ////Debug.Log("Saving !! ");
                 yield return new WaitForEndOfFrame();
 
                 bool isFileExists = File.Exists(SavePath);
@@ -60,7 +60,7 @@ namespace MyVR_Assets
                 }
                 catch
                 {
-                    Debug.Log("ファイルがロックされているか又は開けない.");
+                    //Debug.Log("ファイルがロックされているか又は開けない.");
                     isFileLocked = true;
                 }
                 finally

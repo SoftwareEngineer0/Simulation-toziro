@@ -23,7 +23,7 @@ namespace MyVR_Assets
 
             do
             {
-                //Debug.Log("progress: " + async.progress + "isDone: " + async.isDone);
+                ////Debug.Log("progress: " + async.progress + "isDone: " + async.isDone);
                 ProgressText.text = "…" + (async.progress * 111f).ToString("f0") + "%";
 
                 yield return new WaitForEndOfFrame();

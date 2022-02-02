@@ -81,7 +81,7 @@ namespace Kender.uGUI
 			LoadAssets();
 			comboBox.Sprite_UISprite = Sprite_UISprite;
 			comboBox.Sprite_Background = Sprite_Background;
-			Debug.Log("CreateControl!!!");
+			//Debug.Log("CreateControl!!!");
 			comboBox.CreateControl();
 			Selection.activeGameObject = comboBoxGO;
 		}

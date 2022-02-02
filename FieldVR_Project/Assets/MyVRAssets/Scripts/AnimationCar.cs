@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyVR_Assets
 {
-    public class AnimationCar : MonoBehaviour
+    public class AnimationCar : SingletonMonoBehaviour<AnimationCar>
     {
         public int GenerateNum;
         public float Speed_km;
@@ -25,10 +25,16 @@ namespace MyVR_Assets
         // public Toggle CarToggle;
 
         void Start()
-        {
-          CarGenerate_A();
+        {            
+            Debug.Log("AnimationCar:" + AutoRun.Instance.AutoRunSpeedSlider.value);
+            //CarGenerate_A();
         }
+        void Update()
+        {
+            //ObjectSwitchButtonText.text
+            //Debug.Log("AnimationCar!:" + AutoRun.Instance.AutoRunSpeedSlider.value);
 
+        }
         public void CarGenerate_A()
         {
             for (int i = 0; i < GenerateNum; i++)
@@ -43,7 +49,7 @@ namespace MyVR_Assets
                 Debug.Log("CarGererate_A:" + ClipWeight.GetRandomIndex(AnimationClipWeight) + ":" + CarAnimClip[0]);
 
                 CarAnim_A.AddClip(CarAnimClip[ClipWeight.GetRandomIndex(AnimationClipWeight)], "CarAnim_A");
-                CarAnim_A["CarAnim_A"].speed = Speed_km * 0.01f;
+                CarAnim_A["CarAnim_A"].speed = AutoRun.Instance.AutoRunSpeedSlider.value/3;//Speed_km * 0.01f;
                 CarAnim_A["CarAnim_A"].normalizedTime = Random.Range(0, 1f);
                 CarAnim_A.Play("CarAnim_A");
             }
@@ -60,13 +66,6 @@ namespace MyVR_Assets
 
             //CarGenerate_A();
         //}
-
-        void update()
-        {
-            //ObjectSwitchButtonText.text
-
-
-        }
 
         public void AnimationChange()
         {

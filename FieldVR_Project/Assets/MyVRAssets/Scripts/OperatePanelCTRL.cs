@@ -172,7 +172,7 @@ namespace MyVR_Assets
             float moveDistance = Vector3.Distance(Player.transform.position, prePosition) * (1.0f / Time.deltaTime);
             
             MoveSpeedMeterText.text = (moveDistance * 3.6f).ToString("f0") + "km/h";
-            //Debug.Log("MoveSpeed:"+MoveSpeedMeterText.text);
+            ////Debug.Log("MoveSpeed:"+MoveSpeedMeterText.text);
             // 次のフレームで1つ前のフレームの位置として使う為現在の位置を保存
             prePosition = Player.transform.position;
         }

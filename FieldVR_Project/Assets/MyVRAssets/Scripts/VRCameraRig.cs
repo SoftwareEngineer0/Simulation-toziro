@@ -83,7 +83,7 @@ namespace MyVR_Assets
 
             if (CamMode == "地上")
             {
-                Debug.Log("VRCineraRig_Start@@_地上");
+                //Debug.Log("VRCineraRig_Start@@_地上");
                 ZoomSlider.value = 0.0f;
                 HighOffsetSlider.value = HighOffset;
 
@@ -95,7 +95,7 @@ namespace MyVR_Assets
             }
             else if (CamMode == "上空")
             {
-                Debug.Log("VRCineraRig_Start@@_上空");
+                //Debug.Log("VRCineraRig_Start@@_上空");
                 GetComponent<Rigidbody>().isKinematic = true;
                 GetComponent<CapsuleCollider>().enabled = false;
                 //-------------------------Modify PROCW-----------------------------------
@@ -105,13 +105,13 @@ namespace MyVR_Assets
                 transform.eulerAngles = new Vector3(0.0f, 246.6f, 0.0f);
                 VerticalRotObj.localEulerAngles = new Vector3(40.0f, 0.0f, 0.0f);
                 ResetRotation = VerticalRotObj.eulerAngles;
-                Debug.Log("ResetRotation:" + ResetRotation);
-                Debug.Log("Start_ResetPos:" + ResetPosition);
+                //Debug.Log("ResetRotation:" + ResetRotation);
+                //Debug.Log("Start_ResetPos:" + ResetPosition);
                 ZoomSlider.value = Vector3.Distance(MainCamera.position, ResetPosition);
-                Debug.Log("Start_Distance:" + ZoomSlider.value);
+                //Debug.Log("Start_Distance:" + ZoomSlider.value);
                 //transform.position = new Vector3(108f, 118.3f, 82.4f);
                 transform.position = new Vector3(0f, 0f, 0f);
-                Debug.Log("MainCamera_Start:" + MainCamera.position);
+                //Debug.Log("MainCamera_Start:" + MainCamera.position);
                 MainCamera.position = new Vector3(-18.64f, -22.5f, -345.4f);
                 MainCamera.localEulerAngles = new Vector3(0f, 0f, 0f);
                 HighOffsetSlider.value = HighOffset;
@@ -133,7 +133,7 @@ namespace MyVR_Assets
             VerticalRotObj.localEulerAngles = new Vector3(40.0f, 0.0f, 0.0f);
             ResetPosition = transform.position;
             ZoomSlider.value = 347.5f;
-            Debug.Log("CameraMode:" + ZoomSlider.value + MainCamera.position);
+            //Debug.Log("CameraMode:" + ZoomSlider.value + MainCamera.position);
 
             //TiltResetFlagSky = true;
 
@@ -321,14 +321,14 @@ namespace MyVR_Assets
             //共通入力
             if (CamMode != "2D")
             {
-                Debug.Log("UPdate1");
+                //Debug.Log("UPdate1");
                 //キーボード移動入力
                 if (!AutoRunActive || MousePosOverUI == false && !JoystickActive)
                 {
-                    Debug.Log("UPdate2");
+                    //Debug.Log("UPdate2");
                     if (!isTextInput)
                     {
-                        Debug.Log("UPdate3");
+                        //Debug.Log("UPdate3");
                         PosX = Input.GetAxis("Horizontal") * PosSensitivity;
                         PosZ = Input.GetAxis("Vertical") * PosSensitivity;
                     }
@@ -336,27 +336,27 @@ namespace MyVR_Assets
                 //マウス回転入力
                 if (MousePosOverUI == false && !JoystickActive)
                 {
-                    Debug.Log("UPdate4");
+                    //Debug.Log("UPdate4");
                     if (Input.GetMouseButton(0) || Input.GetMouseButton(2))
                     {
-                        Debug.Log("UPdate5");//!!!
+                        //Debug.Log("UPdate5");//!!!
                         RotX += Input.GetAxis("Mouse X") * RotSensitivity;
                         RotY -= Input.GetAxis("Mouse Y") * RotSensitivity;
 
                         if (Input.GetMouseButton(0) && !AutoRunActive)
                         {
-                            Debug.Log("UPdate6");//!!!
+                            //Debug.Log("UPdate6");//!!!
                             if (!CameraCtrlStopFlag)
                             {
-                                Debug.Log("UPdate7");//!!!
+                                //Debug.Log("UPdate7");//!!!
                                 if (!Input.GetMouseButton(1))
                                 {
-                                    Debug.Log("UPdate8");//!!!
+                                    //Debug.Log("UPdate8");//!!!
                                     PosZ = 1.0f * PosSensitivity;
                                 }
                                 else if (Input.GetMouseButton(1))
                                 {
-                                    Debug.Log("UPdate9");
+                                    //Debug.Log("UPdate9");
                                     PosZ = -1.0f * PosSensitivity;
                                 }
                             }
@@ -367,10 +367,10 @@ namespace MyVR_Assets
                 //タッチパネル入力
                 if (MousePosOverUI == false)
                 {
-                    Debug.Log("UPdate10");
+                    //Debug.Log("UPdate10");
                     if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
                     {
-                        Debug.Log("UPdate11");
+                        //Debug.Log("UPdate11");
                         // Get movement of the finger since last frame
                         Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 
@@ -382,11 +382,11 @@ namespace MyVR_Assets
                 //バーチャルジョイスティック入力
                 if (JoystickActive)
                 {
-                    Debug.Log("UPdate12");
+                    //Debug.Log("UPdate12");
                     //移動
                     if (!AutoRunActive)
                     {
-                        Debug.Log("UPdate13");
+                        //Debug.Log("UPdate13");
                         PosX = leftJoystick.virtualAxes.x * PosSensitivity;
                         PosZ = leftJoystick.virtualAxes.y * PosSensitivity;
                     }
@@ -396,7 +396,7 @@ namespace MyVR_Assets
                 }
 
                 distance = ZoomSlider.value;
-                //Debug.Log("VRCameraRig_JoyStick_distance:" + distance);
+                ////Debug.Log("VRCameraRig_JoyStick_distance:" + distance);
                 MainCamera.localPosition = new Vector3(-18.64f, -22.5f, distance * -1.0f);
                 VerticalRotObj.localPosition = new Vector3(0f, HighOffsetSlider.value, 0f);
             }
@@ -407,41 +407,41 @@ namespace MyVR_Assets
                 //jump
                 if (Input.GetButton("Jump"))
                 {
-                    Debug.Log("UPdate14");
+                    //Debug.Log("UPdate14");
                     //print("A");
                     GetComponent<Rigidbody>().AddForce(transform.up * Time.deltaTime * 1000f);
                 }
             }
             else if (CamMode == "上空")
             {
-                Debug.Log("UPdate15");
-                //Debug.Log("VRCameraRig_CamMode:" + LandingPosition);
+                //Debug.Log("UPdate15");
+                ////Debug.Log("VRCameraRig_CamMode:" + LandingPosition);
                 //着地点の表示
                 if (ShowLandingToggle.GetComponent<Toggle>().isOn)
                 {
-                    Debug.Log("UPdate16");
+                    //Debug.Log("UPdate16");
                     RaycastHit hit;
                     Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
 
                     if (Physics.Raycast(ray, out hit, Mathf.Infinity))
                     {
-                        Debug.Log("UPdate17");
+                        //Debug.Log("UPdate17");
                         LandingPosition = new Vector3(hit.point.x, hit.point.y, hit.point.z);
-                        Debug.Log("VRCameraRig_CamMode1:" + LandingPosition);
+                        //Debug.Log("VRCameraRig_CamMode1:" + LandingPosition);
                     }
 
                     Vector3 LandingPointScreenPos = Camera.main.WorldToScreenPoint(LandingPosition);
                     if (LandingPointScreenPos.z > 0.0f)
                     {
-                        Debug.Log("UPdate18");
+                        //Debug.Log("UPdate18");
                         LandingPoint.transform.position = new Vector3(LandingPointScreenPos.x, LandingPointScreenPos.y, 0.0f);
-                        Debug.Log("VRCameraRig_CamMode2:" + LandingPoint.transform.position);
+                        //Debug.Log("VRCameraRig_CamMode2:" + LandingPoint.transform.position);
                     }
                 }
-                Debug.Log("Update_CamMode_上空" + ZoomSlider.value);
+                //Debug.Log("Update_CamMode_上空" + ZoomSlider.value);
                 if (ZoomSlider.value < 0.0f)
                 {
-                    Debug.Log("UPdate19");
+                    //Debug.Log("UPdate19");
                     ZoomSlider.value = 0.0f;
                 }
 
@@ -450,9 +450,9 @@ namespace MyVR_Assets
                 //右クリックでの指定座標移動
                 if (Input.GetMouseButtonDown(1) && !Input.GetMouseButton(0) && !MousePosOverUI)
                 {
-                    Debug.Log("UPdate20");
+                    //Debug.Log("UPdate20");
                     ApointPosition = ApointPosMove(ApointPosition);
-                    Debug.Log("VRCameraRig_RightClick:" + ApointPosButton);
+                    //Debug.Log("VRCameraRig_RightClick:" + ApointPosButton);
                     NewDistance = Vector3.Distance(MainCamera.position, ApointPosition);
                     iTween.MoveTo(this.gameObject, ApointPosition, 1.0f);
                     StartCoroutine("DistanceAdjust");
@@ -460,9 +460,9 @@ namespace MyVR_Assets
                 //ボタンでの指定座標移動
                 if (Input.GetMouseButtonDown(0) && !MousePosOverUI && ApointPosButton)
                 {
-                    Debug.Log("UPdate21");
+                    //Debug.Log("UPdate21");
                     ApointPosition = ApointPosMove(ApointPosition);
-                    Debug.Log("VRCameraRig_LeftClick:" + ApointPosButton);
+                    //Debug.Log("VRCameraRig_LeftClick:" + ApointPosButton);
                     NewDistance = Vector3.Distance(MainCamera.position, ApointPosition);
                     iTween.MoveTo(this.gameObject, ApointPosition, 1.0f);
                     StartCoroutine("DistanceAdjust");
@@ -474,30 +474,30 @@ namespace MyVR_Assets
                 //上空カメラモード時のYposの処理
                 if (PosYUpButton && !PosYDownButton)
                 {
-                    Debug.Log("UPdate22");
+                    //Debug.Log("UPdate22");
                     PosY = 1f * PosSensitivity;
                 }
                 if (!PosYUpButton && PosYDownButton)
                 {
-                    Debug.Log("UPdate23");
+                    //Debug.Log("UPdate23");
                     PosY = -1f * PosSensitivity;
                 }
                 if (!PosYUpButton && !PosYDownButton)//!!!
                 {
-                    Debug.Log("UPdate24");
+                    //Debug.Log("UPdate24");
                     PosY = 0.0f;
                 }
             }
 
             if (TiltResetFlagSky)
             {
-                Debug.Log("UPdate25");
+                //Debug.Log("UPdate25");
                 TiltReset = Mathf.MoveTowardsAngle(VerticalRotObj.localEulerAngles.x, 40.0f, Time.deltaTime * 200f);
                 VerticalRotObj.localEulerAngles = new Vector3(TiltReset, 0f, 0f);
             }
             else if (TiltResetFlagGround)
             {
-                Debug.Log("UPdate26");
+                //Debug.Log("UPdate26");
                 TiltReset = Mathf.MoveTowardsAngle(VerticalRotObj.localEulerAngles.x, 0.0f, Time.deltaTime * 100f);
                 VerticalRotObj.localEulerAngles = new Vector3(TiltReset, 0f, 0f);
             }
@@ -509,7 +509,7 @@ namespace MyVR_Assets
             if (DistLagAdjuster <= 1.0f)
             {
                 MainCamera.localPosition = new Vector3(0f, 0f, 0f);
-                Debug.Log("UPdate27");
+                //Debug.Log("UPdate27");
                 DistLagAdjuster = 1.0f;
             }
 

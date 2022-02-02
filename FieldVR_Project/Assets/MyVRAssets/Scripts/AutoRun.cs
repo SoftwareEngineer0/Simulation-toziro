@@ -6,7 +6,7 @@ using Kender.uGUI;
 
 namespace MyVR_Assets
 {
-    public class AutoRun : MonoBehaviour
+    public class AutoRun : SingletonMonoBehaviour<AutoRun>
     {
         public GameObject Player;
         public Transform VerticalRotObj;
@@ -37,7 +37,7 @@ namespace MyVR_Assets
 
         public void AutoRunSelect()
         {
-            Debug.Log("AutoRunSelect1");
+            //Debug.Log("AutoRunSelect1");
             if(isCurrentModel) {
                 AutoRunComboBox.GetComponent<ComboBox>().isCurrentModel = true;
                 //AutoRunComboBox.GetComponent<ComboBox>().Items[1].IsDisabled = false;
@@ -54,17 +54,17 @@ namespace MyVR_Assets
             }
             if (AutoRunActive)
             {
-                Debug.Log("AutoRunSelect2_AutoRunQuitButton");
+                //Debug.Log("AutoRunSelect2_AutoRunQuitButton");
                 AutoRunQuitButton();
             }
 
-            Debug.Log("AutoRunSelect3");
+            //Debug.Log("AutoRunSelect3");
             //セレクトボックスを開くため
             AutoRunSelectClickCount++;
 
             if (AutoRunSelectClickCount >= 2)
             {
-                Debug.Log("AutoRunSelect4");
+                //Debug.Log("AutoRunSelect4");
                 Player.GetComponent<Rigidbody>().isKinematic = true;
                 Player.GetComponent<CapsuleCollider>().enabled = false;
                 //ComboBoxの処理待ち
@@ -76,9 +76,9 @@ namespace MyVR_Assets
         {
             yield return null;
             AutoRunSelectedIndex = AutoRunComboBox.GetComponent<ComboBox>().SelectedIndex;
-            Debug.Log("AutoRunSelectedIndex:" + AutoRunSelectedIndex);
+            //Debug.Log("AutoRunSelectedIndex:" + AutoRunSelectedIndex);
             GetAutoRun = AutoRunObject[AutoRunSelectedIndex - 1];
-            Debug.Log("AutoRun_GetAutoRun:" + GetAutoRun.transform.position);
+            //Debug.Log("AutoRun_GetAutoRun:" + GetAutoRun.transform.position);
             AutoRunActive = true;
 
             if (Player.GetComponent<VRCameraRig>().CamMode == "上空")
@@ -87,15 +87,10 @@ namespace MyVR_Assets
                 //Player.GetComponent<VRCameraRig>().CamMode = "地上";
                 Player.GetComponent<VRCameraRig>().ZoomSlider.value = 0.0f;
             }
-            Debug.Log("AutoRun_Player.transform.position:" + Player.transform.position);
             //オートランスタート地点へ移動
             Player.transform.position = GetAutoRun.transform.position;
-            Debug.Log("AutoRun_Player.transform.position1:" + Player.transform.position);
-            Debug.Log("AutoRun_Player.transform.position_parent:" + Player.transform.parent);
-            Debug.Log("AutoRun_Player.transform.position_parent@@:" + GetAutoRun.transform + GetAutoRun.transform.position);
             //オートランスタート地点へ回転
             Player.transform.parent = GetAutoRun.transform;
-            Debug.Log("AutoRun_Player.transform.position_parent1:" + Player.transform.parent);
             VerticalRotObj.localEulerAngles = new Vector3(0f, 0f, 0f);
             Player.transform.localEulerAngles = new Vector3(0f, -90f, 0f);
 
@@ -106,11 +101,12 @@ namespace MyVR_Assets
 
         private IEnumerator AutoRunStart()
         {
-            Debug.Log("AutoRunStart");
+            //Debug.Log("AutoRunStart");
             AutoRunCtrlPanel.SetActive(true);
             yield return new WaitForSeconds(0.5f);
             GetAutoRunAnim.SetTrigger("Run");
             AutoRunRotReset = true;
+            AnimationCar.Instance.CarGenerate_A();
         }
 
         //AutoRun一時停止ボタン
@@ -136,7 +132,7 @@ namespace MyVR_Assets
         //AutoRun終了ボタン
         public void AutoRunQuitButton()
         {
-            Debug.Log("Onclick_AutoRunQuitButton:");
+            //Debug.Log("Onclick_AutoRunQuitButton:");
             Player.transform.parent = GameObject.Find("VR_Rig").transform;
             Player.GetComponent<Rigidbody>().isKinematic = false;
             Player.GetComponent<CapsuleCollider>().enabled = true;
@@ -169,12 +165,12 @@ namespace MyVR_Assets
 
                 VerticalRotObj.localEulerAngles = new Vector3(AutoRunRuntimeRotXReset, 0f, 0f);
                 Player.transform.localEulerAngles = new Vector3(0f, AutoRunRuntimeRotYReset, 0f);
-                //Debug.Log("AutoRun_Update_PlayerTrans:" + Player.transform.position);
+                ////Debug.Log("AutoRun_Update_PlayerTrans:" + Player.transform.position);
             }
 
             if (AutoRunActive)
             {
-                Debug.Log("AutoRunActive!!!" + AutoRunSpeedSlider.value);
+                //Debug.Log("AutoRunActive!!!" + AutoRunSpeedSlider.value);
                 GetAutoRunAnim.SetFloat("Speed", AutoRunSpeedSlider.value/3);
 
                 float SpeedText = AutoRunSpeedSlider.value * 100f;
