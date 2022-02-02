@@ -8,7 +8,7 @@ namespace MyVR_Assets
     public class AnimationCar : SingletonMonoBehaviour<AnimationCar>
     {
         public int GenerateNum;
-        public float Speed_km;
+        private float Speed_km;
 
         // public AnimationClip Genkyo01;
         // public AnimationClip Genkyo02;
@@ -19,6 +19,9 @@ namespace MyVR_Assets
         public AnimationClip[] CarAnimClip;
         public int[] AnimationClipWeight;
         public GameObject[] CarModel;
+        private GameObject cloneCar;
+        private Animation cloneCarAnimation;
+        private bool isGenerated = false;
 
         // public Text ObjectSwitchButtonText;
 
@@ -33,6 +36,24 @@ namespace MyVR_Assets
         {
             //ObjectSwitchButtonText.text
             //Debug.Log("AnimationCar!:" + AutoRun.Instance.AutoRunSpeedSlider.value);
+            Speed_km = AutoRun.Instance.AutoRunSpeedSlider.value;
+            if(isGenerated) {
+                cloneCar = this.transform.GetChild(0).gameObject;
+                //Debug.Log("cloneCar:"+cloneCar);
+                if(cloneCar) {
+                    cloneCarAnimation = cloneCar.GetComponents<Animation>()[0];
+                    //Debug.Log("AnimationCar!:" + cloneCarAnimation + "speed:" + Speed_km);
+                    cloneCarAnimation["CarAnim_A"].speed = Speed_km/3;
+                }
+                if(!AutoRun.Instance.getAutoRunStatus())
+            {
+                cloneCarAnimation["CarAnim_A"].speed = 0;
+            }
+            }
+            
+            
+            
+            //cloneCarAnimation.speed = Speed_km;
 
         }
         public void CarGenerate_A()
@@ -45,14 +66,15 @@ namespace MyVR_Assets
                 GenerateClone.transform.parent = this.transform;
                 GenerateClone.transform.parent.position = new Vector3(this.transform.position.x, 0.81f, this.transform.position.z);
 
-                Animation CarAnim_A = GenerateClone.AddComponent<Animation>();
+                cloneCarAnimation = GenerateClone.AddComponent<Animation>();
                 Debug.Log("CarGererate_A:" + ClipWeight.GetRandomIndex(AnimationClipWeight) + ":" + CarAnimClip[0]);
 
-                CarAnim_A.AddClip(CarAnimClip[ClipWeight.GetRandomIndex(AnimationClipWeight)], "CarAnim_A");
-                CarAnim_A["CarAnim_A"].speed = AutoRun.Instance.AutoRunSpeedSlider.value/3;//Speed_km * 0.01f;
-                CarAnim_A["CarAnim_A"].normalizedTime = Random.Range(0, 1f);
-                CarAnim_A.Play("CarAnim_A");
+                cloneCarAnimation.AddClip(CarAnimClip[ClipWeight.GetRandomIndex(AnimationClipWeight)], "CarAnim_A");
+                cloneCarAnimation["CarAnim_A"].speed = Speed_km/3;//Speed_km * 0.01f;
+                cloneCarAnimation["CarAnim_A"].normalizedTime = Random.Range(0, 1f);
+                cloneCarAnimation.Play("CarAnim_A");
             }
+            isGenerated = true;
         }
 
         //void OnEnable()

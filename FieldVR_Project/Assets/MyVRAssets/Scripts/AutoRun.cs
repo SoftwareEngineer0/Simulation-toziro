@@ -102,11 +102,12 @@ namespace MyVR_Assets
         private IEnumerator AutoRunStart()
         {
             //Debug.Log("AutoRunStart");
+            AnimationCar.Instance.CarGenerate_A();
             AutoRunCtrlPanel.SetActive(true);
             yield return new WaitForSeconds(0.5f);
             GetAutoRunAnim.SetTrigger("Run");
             AutoRunRotReset = true;
-            AnimationCar.Instance.CarGenerate_A();
+            
         }
 
         //AutoRun一時停止ボタン
@@ -150,10 +151,17 @@ namespace MyVR_Assets
         private IEnumerator AutoRunReset()
         {
             yield return null;
-
+            Debug.Log("AutoRunReset");
             GetAutoRunAnim.SetTrigger("Idle");
             GetAutoRun = null;
             AutoRunActive = false;
+        }
+        public bool getAutoRunStatus()
+        {
+            if(AutoRunActive)
+                return true;
+            else
+                return false;
         }
 
         void Update ()
