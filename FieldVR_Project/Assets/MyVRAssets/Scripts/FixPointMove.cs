@@ -51,7 +51,7 @@ namespace MyVR_Assets
             GetFixPoint = FixPoint[FixPointSelectedIndex - 1].Point;
 
             //定点へ移動
-            Debug.Log("FixPointMove:" + GetFixPoint.position);
+            //Debug.Log("FixPointMove:" + GetFixPoint.position);
             Player.transform.position = GetFixPoint.position;
             //定点の回転
             VerticalRotObj.localEulerAngles = new Vector3(GetFixPoint.localEulerAngles.x, 0f, 0f);
@@ -95,7 +95,7 @@ namespace MyVR_Assets
             Vector3 ResetPosition = Player.GetComponent<VRCameraRig>().PlayerPosReset();
             print(ResetPosition);
             Player.GetComponent<VRCameraRig>().ZoomSlider.value = Vector3.Distance(Camera.main.transform.position, ResetPosition);
-            Debug.Log("FixPointMovie_FixPointSkyPositionReset:" + ResetPosition);
+            //Debug.Log("FixPointMovie_FixPointSkyPositionReset:" + ResetPosition);
             Player.transform.position = ResetPosition;
         }
 

@@ -18,7 +18,7 @@ namespace UnityStandardAssets.ImageEffects
 		{
             if (!s)
 			{
-                Debug.Log("Missing shader in " + ToString ());
+                //Debug.Log("Missing shader in " + ToString ());
                 enabled = false;
                 return null;
             }
@@ -29,7 +29,7 @@ namespace UnityStandardAssets.ImageEffects
             if (!s.isSupported)
 			{
                 NotSupported ();
-                Debug.Log("The shader " + s.ToString() + " on effect "+ToString()+" is not supported on this platform!");
+                //Debug.Log("The shader " + s.ToString() + " on effect "+ToString()+" is not supported on this platform!");
                 return null;
             }
 
@@ -159,7 +159,7 @@ namespace UnityStandardAssets.ImageEffects
         // deprecated but needed for old effects to survive upgrading
         bool CheckShader (Shader s)
 		{
-            Debug.Log("The shader " + s.ToString () + " on effect "+ ToString () + " is not part of the Unity 3.2+ effects suite anymore. For best performance and quality, please ensure you are using the latest Standard Assets Image Effects (Pro only) package.");
+            //Debug.Log("The shader " + s.ToString () + " on effect "+ ToString () + " is not part of the Unity 3.2+ effects suite anymore. For best performance and quality, please ensure you are using the latest Standard Assets Image Effects (Pro only) package.");
             if (!s.isSupported)
 			{
                 NotSupported ();

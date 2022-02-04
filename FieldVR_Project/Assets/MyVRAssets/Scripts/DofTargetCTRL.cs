@@ -28,7 +28,7 @@ namespace MyVR_Assets
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                Debug.Log("DoftargetCTRL:" + hit.point);
+                //Debug.Log("DoftargetCTRL:" + hit.point);
                 this.transform.position = hit.point;
 
             }
