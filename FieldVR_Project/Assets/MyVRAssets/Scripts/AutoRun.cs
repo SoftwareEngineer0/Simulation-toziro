@@ -101,12 +101,14 @@ namespace MyVR_Assets
 
         private IEnumerator AutoRunStart()
         {
-            //Debug.Log("AutoRunStart");
-            AnimationCar.Instance.CarGenerate_A();
+            Debug.Log("AutoRunStart");
             AutoRunCtrlPanel.SetActive(true);
-            yield return new WaitForSeconds(0.5f);
             GetAutoRunAnim.SetTrigger("Run");
             AutoRunRotReset = true;
+            yield return new WaitForSeconds(0.5f);
+            if(!AnimationCar.Instance.getStatusGeneration()) {
+                AnimationCar.Instance.CarPlay();
+            }
             
         }
 
@@ -173,7 +175,6 @@ namespace MyVR_Assets
 
                 VerticalRotObj.localEulerAngles = new Vector3(AutoRunRuntimeRotXReset, 0f, 0f);
                 Player.transform.localEulerAngles = new Vector3(0f, AutoRunRuntimeRotYReset, 0f);
-                ////Debug.Log("AutoRun_Update_PlayerTrans:" + Player.transform.position);
             }
 
             if (AutoRunActive)
@@ -187,6 +188,13 @@ namespace MyVR_Assets
             else if (!AutoRunActive)
             {
                 AutoRunSpeedText.text = null;
+            }
+            if((GetAutoRunAnim != null) && (GetAutoRunAnim.GetCurrentAnimatorStateInfo(0).IsName("Idle") == true)) {
+                Debug.Log("Success!");
+                if(AnimationCar.Instance.getStatusGeneration()) {
+                    AnimationCar.Instance.cloneCarAnimation["CarAnim_A"].normalizedTime = 0f;
+                    
+                }
             }
         }
     }
