@@ -44,7 +44,8 @@ namespace MyVR_Assets
                 if(cloneCar) {
                     cloneCarAnimation = cloneCar.GetComponents<Animation>()[0];
                     //Debug.Log("AnimationCar!:" + cloneCarAnimation + "speed:" + Speed_km);
-                    cloneCarAnimation["CarAnim_A"].speed = Speed_km/3;
+                    cloneCarAnimation["CarAnim_A"].speed = Speed_km/2.9f;
+                    Debug.Log("speed!!!:" + Speed_km/3f + ":" + cloneCarAnimation["CarAnim_A"].speed);
                 }
                 if(!AutoRun.Instance.getAutoRunStatus())
                 {
@@ -72,7 +73,8 @@ namespace MyVR_Assets
         {
             cloneCarAnimation = GetComponentInChildren<Animation>();
             cloneCarAnimation.AddClip(CarAnimClip[0], "CarAnim_A");
-            cloneCarAnimation["CarAnim_A"].speed = Speed_km/3;//Speed_km * 0.01f;
+            Debug.Log("speed:" + Speed_km/3);
+            cloneCarAnimation["CarAnim_A"].speed = Speed_km/2.9f;//Speed_km * 0.01f;
             cloneCarAnimation["CarAnim_A"].normalizedTime = 0f;
             cloneCarAnimation.Play("CarAnim_A");
             isGenerated = true;

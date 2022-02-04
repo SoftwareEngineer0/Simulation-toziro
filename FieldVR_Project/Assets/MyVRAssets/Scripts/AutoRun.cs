@@ -105,7 +105,7 @@ namespace MyVR_Assets
             AutoRunCtrlPanel.SetActive(true);
             GetAutoRunAnim.SetTrigger("Run");
             AutoRunRotReset = true;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.1f);
             if(!AnimationCar.Instance.getStatusGeneration()) {
                 AnimationCar.Instance.CarPlay();
             }
@@ -180,6 +180,7 @@ namespace MyVR_Assets
             if (AutoRunActive)
             {
                 //Debug.Log("AutoRunActive!!!" + AutoRunSpeedSlider.value);
+                Debug.Log("speed_orginal:" + AutoRunSpeedSlider.value/3);
                 GetAutoRunAnim.SetFloat("Speed", AutoRunSpeedSlider.value/3);
 
                 float SpeedText = AutoRunSpeedSlider.value * 100f;
