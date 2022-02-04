@@ -76,25 +76,6 @@ namespace MyVR_Assets
             cloneCarAnimation["CarAnim_A"].normalizedTime = 0f;
             cloneCarAnimation.Play("CarAnim_A");
             isGenerated = true;
-
-            // for (int i = 0; i < GenerateNum; i++)
-            // {
-            //     Debug.Log("CarGenerate_A");
-            //     GameObject GenerateClone = Instantiate(CarModel[Random.Range(0,CarModel.Length)]);
-            //     GenerateClone.transform.localScale = new Vector3(1.1f,1.0f,1.0f);
-            //     GenerateClone.tag = "AnimationCar";
-            //     GenerateClone.transform.parent = this.transform;
-            //     //GenerateClone.transform.parent.position = new Vector3(this.transform.position.x, 0.81f, this.transform.position.z);
-
-            //     cloneCarAnimation = GenerateClone.AddComponent<Animation>();
-            //     Debug.Log("CarGererate_A:" + this.transform.position.x + ":" + ClipWeight.GetRandomIndex(AnimationClipWeight) + ":" + CarAnimClip[0]);
-
-            //     cloneCarAnimation.AddClip(CarAnimClip[0], "CarAnim_A");
-            //     cloneCarAnimation["CarAnim_A"].speed = Speed_km/3;//Speed_km * 0.01f;
-            //     cloneCarAnimation["CarAnim_A"].normalizedTime = Random.Range(0, 1f);
-            //     cloneCarAnimation.Play("CarAnim_A");
-            //     isGenerated = true;
-            // }            
         }
 
         public void CarDestroy()
