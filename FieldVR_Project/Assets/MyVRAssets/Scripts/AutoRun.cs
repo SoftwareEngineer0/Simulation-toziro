@@ -166,6 +166,14 @@ namespace MyVR_Assets
                 return false;
         }
 
+        // public bool getAutoRunPauseStatus()
+        // {
+        //     if(AutoRunActive)
+        //         return true;
+        //     else
+        //         return false;
+        // }
+
         void Update ()
         {
             if (AutoRunRotReset && !Input.anyKey)
