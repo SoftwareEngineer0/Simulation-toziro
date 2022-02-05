@@ -39,7 +39,7 @@ namespace MyVR_Assets
             //Debug.Log("AnimationCar!:" + AutoRun.Instance.AutoRunSpeedSlider.value);
             Speed_km = AutoRun.Instance.AutoRunSpeedSlider.value;
             if(isGenerated) {
-                cloneCar = this.transform.GetChild(0).gameObject;
+                cloneCar = this.transform.GetChild(1).gameObject;
                 //Debug.Log("cloneCar:"+cloneCar);
                 if(cloneCar) {
                     cloneCarAnimation = cloneCar.GetComponents<Animation>()[0];
@@ -49,7 +49,7 @@ namespace MyVR_Assets
                 }
                 if(!AutoRun.Instance.getAutoRunStatus())
                 {
-                    cloneCarAnimation["CarAnim_A"].speed = 0;
+                    //cloneCarAnimation["CarAnim_A"].speed = 0;
                 }
             }
             
@@ -71,12 +71,25 @@ namespace MyVR_Assets
         }
         public void CarPlay()
         {
-            cloneCarAnimation = GetComponentInChildren<Animation>();
-            cloneCarAnimation.AddClip(CarAnimClip[0], "CarAnim_A");
-            Debug.Log("speed:" + Speed_km/3);
-            cloneCarAnimation["CarAnim_A"].speed = Speed_km/2.9f;//Speed_km * 0.01f;
-            cloneCarAnimation["CarAnim_A"].normalizedTime = 0f;
-            cloneCarAnimation.Play("CarAnim_A");
+
+            GameObject GenerateClone = Instantiate(CarModel[Random.Range(0,CarModel.Length)]);
+            GenerateClone.transform.localScale = new Vector3(1.1f,1.0f,1.0f);
+            GenerateClone.tag = "AnimationCar";
+            GenerateClone.transform.parent = this.transform;
+
+            Animation CarAnim_A = GenerateClone.AddComponent<Animation>();
+            Debug.Log("CarGererate_A:" + ClipWeight.GetRandomIndex(AnimationClipWeight) + ":" + CarAnimClip[0]);
+            CarAnim_A.AddClip(CarAnimClip[0], "CarAnim_A");
+            CarAnim_A["CarAnim_A"].speed = Speed_km/2.9f;
+            CarAnim_A["CarAnim_A"].normalizedTime = 0f;
+            CarAnim_A.Play("CarAnim_A");
+
+            // cloneCarAnimation = GetComponentInChildren<Animation>();
+            // cloneCarAnimation.AddClip(CarAnimClip[0], "CarAnim_A");
+            // Debug.Log("speed:" + Speed_km/3);
+            // cloneCarAnimation["CarAnim_A"].speed = Speed_km/2.9f;//Speed_km * 0.01f;
+            // cloneCarAnimation["CarAnim_A"].normalizedTime = 0f;
+            // cloneCarAnimation.Play("CarAnim_A");
             isGenerated = true;
         }
 
