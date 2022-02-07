@@ -520,7 +520,67 @@ ModelImporter:
     4300180: "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8097"
     4300182: headlamp_glass006
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: 1a28de551c68f694c84df82e26972d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default02
+    second: {fileID: 2100000, guid: f6337538f5a96bb4db6f60141773c79e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_body
+    second: {fileID: 2100000, guid: d203560fa50333f4a90e2692ff54e2c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_glass1
+    second: {fileID: 2100000, guid: 7720a0b489bb91742bd02620ae84a841, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_glass2
+    second: {fileID: 2100000, guid: 32cd82c644caf8843b930a2b31cbdd4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_interior
+    second: {fileID: 2100000, guid: 5400609c2d6761447850d698c76a55c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_tire
+    second: {fileID: 2100000, guid: 59a8c35567fbd244ca2f9f35bc83ddfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6_metal
+    second: {fileID: 2100000, guid: e81e9c17e28a94a4d978dfdb3e1eca96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_blk
+    second: {fileID: 2100000, guid: 958c243969f4a85458ac6d061dadd786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 8_light_glass
+    second: {fileID: 2100000, guid: 654cc8172ac56e0448ad9c4026c8c563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 9_redlamp
+    second: {fileID: 2100000, guid: 0b4fc4bd4395d924f8b12b9b72bf7631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: c18102f05d315d94c8aa489d9068d7b5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

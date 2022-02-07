@@ -144,7 +144,7 @@ namespace MyVR_Assets
             AutoRunRotReset = false;
             AutoRunCtrlPanel.SetActive(false);
             AutoRunPauseFlag = false;
-            AutoRunSpeedSlider.value = 0.30f;
+            AutoRunSpeedSlider.value = 0.10f;
             AutoRunSpeedSlider.interactable = true;
             AutoRunPauseButtonText.color = Color.white;
             AutoRunActive = false;
