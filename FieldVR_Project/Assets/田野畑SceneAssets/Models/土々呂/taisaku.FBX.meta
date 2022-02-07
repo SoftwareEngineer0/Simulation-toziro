@@ -189,7 +189,82 @@ ModelImporter:
     4300064: "\u7E01\u77F3LOFT001-02"
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt
+    second: {fileID: 2100000, guid: d246d5ca8eb030d41a4c004eab4e31aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_2
+    second: {fileID: 2100000, guid: f68169a6e5eb34643bab2292da73d5be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B-Asphalt
+    second: {fileID: 2100000, guid: 515201c00806d03498a3f3ed105a1ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: 088a0a0a9ec93ba43a321e9dfdfd73bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ensek
+    second: {fileID: 2100000, guid: 87597aec40e7c3e48a844efca21c19b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 2c406df5cd7bfec47a72b96fce91a148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_B
+    second: {fileID: 2100000, guid: a63f840ec0b3ac54884c86ef19c66171, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: b08af79b97c505c4ebaa133509ad9ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 87901c7726912894496be7523895278d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 57b90c8161b6d174bb3e4b85feee88d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray
+    second: {fileID: 2100000, guid: 854ea8340f1ba5c4d8579aa1e665afba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marking _ w
+    second: {fileID: 2100000, guid: 4947a4a20c27ea940bd5f0f19eb3f0e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marking _ y
+    second: {fileID: 2100000, guid: b3f1bc948215f4440ba617f6d79bc177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 4bafdb8fac07ca04b83bc7b3aaac9b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow
+    second: {fileID: 2100000, guid: 6367545af09b7e042b5ca8269447fd1c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
